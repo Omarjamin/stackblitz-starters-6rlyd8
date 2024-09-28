@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New York Times Clone</title>
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ewert&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <header>
+        <h1 id="newyork-times">New York Times</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li>
+            <a class="dropdown-toggle" href="#">World</a>
+            <ul class="dropdown">
+              <li>
+                <a class="section-button" data-keyword="world" href="#"
+                  >World News</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="europe" href="#"
+                  >Europe</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="asia" href="#">Asia</a>
+              </li>
+              <li>
+                <a class="section-button" data-keyword="middle-east" href="#"
+                  >Middle East</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="africa" href="#"
+                  >Africa</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="dropdown-toggle" href="#">U.S.</a>
+            <ul class="dropdown">
+              <li>
+                <a class="section-button" data-keyword="us" href="#"
+                  >U.S News</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="politics" href="#"
+                  >Politics</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="new-york" href="#"
+                  >New York</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="laws" href="#">Laws</a>
+              </li>
+              <li>
+                <a class="section-button" data-keyword="elections" href="#"
+                  >Elections</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="dropdown-toggle" href="#">Business</a>
+            <ul class="dropdown">
+              <li>
+                <a class="section-button" data-keyword="business" href="#"
+                  >Business News</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="finance" href="#"
+                  >Finance</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="economy" href="#"
+                  >Economy</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="startups" href="#"
+                  >Startups</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="markets" href="#"
+                  >Markets</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="dropdown-toggle" href="#">Technology</a>
+            <ul class="dropdown">
+              <li>
+                <a class="section-button" data-keyword="technology" href="#"
+                  >Tech News</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="gadgets" href="#"
+                  >Gadgets</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="internet" href="#"
+                  >Internet</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="cybersecurity" href="#"
+                  >Cybersecurity</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="AI" href="#"
+                  >Artificial Intelligence</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="dropdown-toggle" href="#">Health</a>
+            <ul class="dropdown">
+              <li>
+                <a class="section-button" data-keyword="health" href="#"
+                  >Health News</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="fitness" href="#"
+                  >Fitness</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="medicine" href="#"
+                  >Medicine</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="nutrition" href="#"
+                  >Nutrition</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="mental-health" href="#"
+                  >Mental Health</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="dropdown-toggle" href="#">Culture</a>
+            <ul class="dropdown">
+              <li>
+                <a class="section-button" data-keyword="culture" href="#"
+                  >Culture News</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="art" href="#">Art</a>
+              </li>
+              <li>
+                <a class="section-button" data-keyword="music" href="#"
+                  >Music</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="movies" href="#"
+                  >Movies</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="literature" href="#"
+                  >Literature</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="dropdown-toggle" href="#">Sports</a>
+            <ul class="dropdown">
+              <li>
+                <a class="section-button" data-keyword="sports" href="#"
+                  >Sports News</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="football" href="#"
+                  >Football</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="basketball" href="#"
+                  >Basketball</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="tennis" href="#"
+                  >Tennis</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="olympics" href="#"
+                  >Olympics</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="dropdown-toggle" href="#">Opinion</a>
+            <ul class="dropdown">
+              <li>
+                <a class="section-button" data-keyword="opinion" href="#"
+                  >Opinion Pieces</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="editorial" href="#"
+                  >Editorials</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="columns" href="#"
+                  >Columns</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="letters" href="#"
+                  >Letters to the Editor</a
+                >
+              </li>
+              <li>
+                <a class="section-button" data-keyword="perspectives" href="#"
+                  >Perspectives</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="search-section">
+        <div class="search-inputs">
+          <label for="input-for-word" style="margin-top: 10px"
+            >Search by word:</label
+          >
+          <input
+            type="search"
+            name="searchbyword"
+            id="input-for-word"
+            placeholder="example: Sports"
+            aria-label="Search by word"
+          />
+        </div>
+        <button id="search-button">Search Articles</button>
+      </section>
+
+      <img src="bg-image.gif" alt="Background Image" />
+
+      <section id="articles-section">
+        <h2 id="articles-title">Top Stories</h2>
+        <div id="articles">
+          <!-- Articles will be displayed here. -->
+        </div>
+      </section>
+
+      <footer>
+        <p>For Educational Purposes only</p>
+        <img src="nytimes.png" alt="NY Times logo" />
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
